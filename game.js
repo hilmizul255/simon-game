@@ -28,6 +28,13 @@ $(document).keydown(function () {
         nextSequence();
     }
 });
+$(document).click(function () {
+    if (!started) {
+        started = true;
+        nextSequence();
+    }
+});
+
 
 
 // =====================================
